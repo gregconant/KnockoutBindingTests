@@ -3,8 +3,8 @@
 	public class Order
 	{
 		public string OrderName { get; set; }
-		public OrderInfo PrimaryInfo { get; set; }
-		public OrderInfo SecondaryInfo { get; set; }
+		public PrimaryOrderInfo PrimaryInfo { get; set; }
+		public SecondaryOrderInfo SecondaryInfo { get; set; }
 		
 	}
 }

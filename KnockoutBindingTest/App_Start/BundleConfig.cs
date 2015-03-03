@@ -19,7 +19,9 @@ namespace KnockoutBindingTest
 
 			bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
 					"~/Scripts/knockout-{version}.js",
-					"~/Scripts/knockout.validation.js"));
+					"~/Scripts/knockout.validation.js",
+					"~/Scripts/knockout.namepathbinding.js"
+					));
 
 			bundles.Add(new ScriptBundle("~/bundles/app").Include(
 					"~/Scripts/sammy-{version}.js",
@@ -28,6 +30,9 @@ namespace KnockoutBindingTest
 					"~/Scripts/app/app.viewmodel.js",
 					"~/Scripts/app/home.viewmodel.js",
 					"~/Scripts/app/_run.js"));
+
+			bundles.Add(new ScriptBundle("~/bundles/viewmodeltest").Include(
+					"~/Scripts/app/viewmodeltest.js"));
 
 			// Use the development version of Modernizr to develop with and learn from. Then, when you're
 			// ready for production, use the build tool at http://modernizr.com to pick only the tests you need.

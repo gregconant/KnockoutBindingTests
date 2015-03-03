@@ -19,11 +19,11 @@ namespace KnockoutBindingTest.Controllers
 					new Order
 					{
 						OrderName = "Some Order",
-						PrimaryInfo = new OrderInfo
+						PrimaryInfo = new PrimaryOrderInfo()
 						{
 							SomeInfo = "Primary Info String"
 						},
-						SecondaryInfo = new OrderInfo
+						SecondaryInfo = new SecondaryOrderInfo()
 						{
 							SomeInfo = "Secondary Info String"
 						}
@@ -41,8 +41,7 @@ namespace KnockoutBindingTest.Controllers
 		[HttpPost]
 		public ActionResult Edit(PrimaryViewModel editedViewModel)
 		{
-
-			return View(editedViewModel);
+			return View("ViewModelHome", editedViewModel);
 		}
 	}
 }

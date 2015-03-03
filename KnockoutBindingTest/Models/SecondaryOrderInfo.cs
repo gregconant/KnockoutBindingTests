@@ -4,7 +4,7 @@ using System.Web;
 
 namespace KnockoutBindingTest.Models
 {
-	public class OrderInfo
+	public class SecondaryOrderInfo
 	{
 		public string SomeInfo { get;set; }
 	}

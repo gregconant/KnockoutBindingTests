@@ -1,6 +1,4 @@
-﻿@model KnockoutBindingTest.Models.OrderInfo
-
-
+﻿@model KnockoutBindingTest.Models.SecondaryOrderInfo
 
 <div class="form-horizontal">
 	<h4>Order Info</h4>
@@ -9,9 +7,9 @@
 	<div class="form-group">
 		@Html.LabelFor(model => model.SomeInfo, htmlAttributes: new { @class = "control-label col-md-2" })
 		<div class="col-md-10">
-			@Html.EditorFor(model => model.SomeInfo, new { htmlAttributes = new { @class = "form-control" } })
+			@Html.EditorFor(model => model.SomeInfo, new { htmlAttributes = new { @class = "form-control", @data_bind = "value: secondaryInfo.someInfo, namePath: true" } })
+
 			@Html.ValidationMessageFor(model => model.SomeInfo, "", new { @class = "text-danger" })
 		</div>
 	</div>
 </div>
-

@@ -58,6 +58,6 @@ C:\development\spikes\KnockoutBindingTest\KnockoutBindingTest\bin\System.Web.Raz
 C:\development\spikes\KnockoutBindingTest\KnockoutBindingTest\bin\System.Web.WebPages.xml
 C:\development\spikes\KnockoutBindingTest\KnockoutBindingTest\bin\System.Web.WebPages.Deployment.xml
 C:\development\spikes\KnockoutBindingTest\KnockoutBindingTest\bin\System.Web.WebPages.Razor.xml
-C:\development\spikes\KnockoutBindingTest\KnockoutBindingTest\obj\Debug\KnockoutBindingTest.csprojResolveAssemblyReference.cache
 C:\development\spikes\KnockoutBindingTest\KnockoutBindingTest\obj\Debug\KnockoutBindingTest.dll
 C:\development\spikes\KnockoutBindingTest\KnockoutBindingTest\obj\Debug\KnockoutBindingTest.pdb
+C:\development\spikes\KnockoutBindingTest\KnockoutBindingTest\obj\Debug\KnockoutBindingTest.csprojResolveAssemblyReference.cache
