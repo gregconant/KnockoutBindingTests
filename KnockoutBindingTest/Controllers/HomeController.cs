@@ -38,6 +38,7 @@ namespace KnockoutBindingTest.Controllers
 			return View("ViewModelHome", viewModel);
 		}
 
+		[HttpPost]
 		public ActionResult Edit(PrimaryViewModel editedViewModel)
 		{
 
