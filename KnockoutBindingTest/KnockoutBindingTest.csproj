@@ -215,6 +215,10 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MeViewModels.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderInfo.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\PrimaryViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -306,6 +310,11 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Shared\EditorTemplates\Order.cshtml" />
+    <Content Include="Views\Home\ViewModelHome.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Person.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\OrderInfo.cshtml" />
+    <Content Include="Views\Home\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

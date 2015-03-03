@@ -9,4 +9,3 @@ namespace KnockoutBindingTest.Models
 		public string SomeInfo { get;set; }
 	}
 }
-}
